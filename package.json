@@ -7,7 +7,7 @@
   "scripts": {
     "start":"nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-post-build":"NPM_CONFIG_PRODUCTION=false npm install --prefix ../client/tweety && npm run build --prefix ../client/tweety"
+    "heroku-post-build":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
